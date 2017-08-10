@@ -15,14 +15,17 @@
   "plugins":[
     "react"
   ],
+  "globals": {
+    "__DEV__":true
+  },
   "rules":{
-    "indent":[2, 2, { "SwitchCase": 1 }],
+    "indent":[1, 2, { "SwitchCase": 1 }],
     "linebreak-style": 0,
-    "quotes": [2, "single", "avoid-escape"],
+    "quotes": [1, "single", "avoid-escape"],
     "no-extra-semi": 0,
     "no-unused-expressions": 0,
     "no-unused-vars": 0,
-    "no-console": 0,
+    "no-console": 1,
     "no-mixed-spaces-and-tabs": 0,
     "no-cond-assign": 0
   }

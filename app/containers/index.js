@@ -7,7 +7,7 @@ import {CITYNAME} from '../config/localStoreKey'
 import * as userInfoActionsFromOtherFile from '../actions/userinfo'
 
 class App extends React.Component {
-  constructor(props,contenx){
+  constructor(props,context){
     super(props,context)
     this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this)
     this.state = {
@@ -45,6 +45,7 @@ class App extends React.Component {
 // -------------------redux react 绑定--------------------
 function mapStateToProps(state) {
   return {
+
   }
 }
 
