@@ -2,7 +2,7 @@ import React from 'react'
 import {render} from 'react-dom'
 
 import {Provider} from 'react-redux'
-import {hashHistory} from 'react-router'
+import {hashHistory,browserHistory} from 'react-router'
 import configureStore from './store/configureStore'
 
 import './static/css/common.less'
@@ -15,9 +15,7 @@ import RouteMap from './router/routeMap'
 
 render(
   <Provider store={store}>
-    <RouteMap history={hashHistory}/>
+    <RouteMap history={browserHistory}/>
   </Provider>,
   document.getElementById('root')
 )
-
-
