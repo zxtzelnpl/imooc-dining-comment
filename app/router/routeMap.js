@@ -1,9 +1,4 @@
 import React from 'react'
-// import {
-//   BrowserRouter,
-//   Route,
-//   IndexRoute
-// } from 'react-router-dom'
 import { Router, Route, IndexRoute } from 'react-router'
 
 import App from '../containers'
